@@ -60,8 +60,12 @@ public:
     }
 
 signals:
-
+    void my_signal(int);
 public slots:
+    void button101_clicked();
+    void button102_clicked();
+    void button103_clicked();
+    void button104_clicked();
 };
 
 #endif // MAINWINDOWCELL_H

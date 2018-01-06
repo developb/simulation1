@@ -37,5 +37,6 @@ void *control_thread(void *ptr) {
     cp = new controller();
     cp->set(4,1,2); // 4 floors, 1 cell, 2 seconds delay
 
+
 }
 

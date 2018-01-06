@@ -27,31 +27,31 @@ MainWindowFloor::MainWindowFloor(QWidget *parent) : QMainWindow(parent)
 
 void MainWindowFloor::button_clicked()
 {
-    cout<<"slot function button1_clicked()"<<endl;
+    cout<<"slot function button_clicked()"<<endl;
 }
 void MainWindowFloor::button1_clicked()
 {    
-    emit my_signal(2,0);
+    emit my_signal(3,0);
 }
 void MainWindowFloor::button2_clicked()
 {
-    emit my_signal(1,1);
+    emit my_signal(2,1);
 }
 void MainWindowFloor::button3_clicked()
 {
-    emit my_signal(1,0);
+    emit my_signal(2,0);
 }
 void MainWindowFloor::button4_clicked()
 {
-    emit my_signal(0,1);
+    emit my_signal(1,1);
 }
 void MainWindowFloor::button5_clicked()
 {
-    emit my_signal(0,0);
+    emit my_signal(1,0);
 }
 void MainWindowFloor::button6_clicked()
 {
-    emit my_signal(-1,1);
+    emit my_signal(0,1);
 }
 
 MainWindowFloor::~MainWindowFloor()
